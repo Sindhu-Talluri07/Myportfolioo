@@ -1,4 +1,3 @@
-
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
 for (var i = 0; i < numberOfDrumButtons; i++) {
@@ -57,13 +56,10 @@ function makeSound(key) {
       crash.play();
       break;
 
-      case "t":
-      var crash = new Audio('sounds/kick-bass.mp3');
-      crash.play();
+    case "t":
+      var kick = new Audio('sounds/kick-bass.mp3');
+      kick.play();
       break;
-
-
-    
 
 
     default: console.log(key);
