@@ -35,8 +35,11 @@ background-image: url("images/tom4.png");
 .t {
 background-image: url("images/crash.png");
 }
-
 .h{
+background-image: url("images/snare.png");
+}
+
+.e{
 background-image: url("images/kick.png");
 }
 
